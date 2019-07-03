@@ -1,0 +1,116 @@
+/*
+    Name.  : Xinyu Zeng
+    Course : ISQA 3900 Web Development
+    Email: xzeng@unomaha.edu
+    Description: This is css file connected with activity 2 for all pages. 
+
+*/
+
+    body 
+    {
+      margin: 0;
+    }
+
+    button
+    {
+      margin-top: 14px;
+      height: 40px;
+      text-align: center;
+      background-color: white;
+      border-radius: 12px;
+      color: Deeppink;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    button:hover 
+    {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    img 
+    {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      width: 200px;
+      margin-right: 10px;
+    }
+
+    p
+    {
+      right: 300px;
+      text-indent: 50px;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 17px;
+    }
+
+    h1
+    {
+      text-align: center;
+      color:white;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 35px;
+      margin: 0;
+    }
+
+    h2
+    {
+      text-align: center;
+      color:white;
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    }
+
+    #top
+    {
+      background-color: #4682B4;
+      padding: 8px;
+    }
+
+    #heading
+    {
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 20px;
+    }
+
+    #Aboutme
+    {
+      margin: auto;
+    }
+    
+    #Education 
+    {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      margin: auto;
+    }
+
+    #Education td, #Education th 
+    {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    #Education tr:nth-child(even)
+    {
+      background-color: #f2f2f2;
+    }
+
+    #Education tr:hover 
+    {
+      background-color: #F9CDDC;
+    }
+
+    #Education th 
+    {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #8FBBD8;
+      color: white;
+     }
+
+
